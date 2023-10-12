@@ -1,0 +1,92 @@
+
+body{
+    background-color:darkkhaki;
+    text-align:center;
+}
+
+
+h1 , h3{
+    color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:15px;
+}
+
+
+.estilo-formu , .parrafo-nuevo{
+   color:blue;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] , input[type="number"]  {
+    width: 500px;
+    height: 40px;
+}
+
+
+#ab{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:cadetblue;
+    color:darkblue;
+    width: 300px;
+    height: 30px;
+}
+
+
+#ac{
+    color:darkred;
+}
+
+@media (min-width: 480px) and (max-width: 960px){
+     
+    nav , .dropdown-menu {
+        font-size:xx-large;
+      }
+   
+      nav  form .btn{
+        font-size:x-large;
+      }
+    
+    
+   h1 , h3{
+    margin-top:30px;
+    font-size:large;
+    display:inline-block;
+    margin-right:100px;
+    margin-bottom:20px;
+ }
+
+  .estilo-formu {
+    display:inline-block;
+    font-size:large;
+    margin-right:20px;
+ margin-left:10px;;
+     
+ }
+
+
+ 
+ input[type="text"], input[type="number"]{
+    font-size:small;
+    width:300px;
+    height: 40px;
+    margin-right:100px;
+ }
+ 
+ 
+   .parrafo-nuevo{
+      font-size:large;
+      display:inline-block;
+      margin-right:20px;
+      margin-left:20px;
+   }
+
+   #ab, #ac{
+      display:flex;
+      width:200px;
+      margin-top:10px;
+      margin-left:90px;
+      margin-right:0px;
+   }
+   
+   
+}

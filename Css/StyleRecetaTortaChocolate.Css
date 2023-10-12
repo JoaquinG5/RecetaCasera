@@ -1,0 +1,375 @@
+
+*{
+    text-align:center;
+    padding:0;
+}
+
+
+
+body{
+    background-color: darkkhaki;
+}
+
+
+
+
+.uno .contenedor{
+   
+    justify-content:center;
+    display:flex;
+}
+
+.uno .contenedor img{
+    width: 600px;
+    height: 350px;
+   margin-right: 30px;
+
+} 
+
+
+
+table,th , td{
+    border:2px solid;
+    border-collapse: collapse;
+    border-color:#8a2be2;
+    padding:0.5px;
+    text-align:center;
+  
+  
+}
+
+
+th,tr,td{
+  font-style:italic;
+  font-family:"Verdana", Geneva, Tahoma, sans-serif;
+  color:#0000ff;
+ 
+}
+
+thead  th{
+ background-color:blue;
+ color:white;
+ font-style:oblique;
+ text-align:center;
+}
+
+h1{
+    color:red;
+    font-family: 'Urbanist', sans-serif;
+    font-style:normal;
+    padding-top: 30px;
+}
+
+h2, h3, p{
+
+    font-family: 'Taviraj', serif;
+    font-style: italic;
+    color:blue;
+    padding-bottom: 30px;
+}
+
+
+
+body header .uno .redessociales img {
+  width: 40px;
+  height: 40px;
+  display:inline-block;
+  border-radius: 2px;
+  margin: 50px 10px 0 0;
+}
+
+body main .pasos img{
+  width: 550px;
+  height: 300px;
+}
+
+
+body header .uno .redessociales .t{
+    background-color: #5f9ea0;
+} 
+
+body header .uno .redessociales .f{
+    background-color: #0000ff;
+} 
+
+body header .uno .redessociales .w{
+    background-color: #008000;
+} 
+
+body header .uno .redessociales .p{
+    background-color: #c8232c;
+} 
+
+body header .uno .redessociales .ig{
+    color:transparent;
+    background-image: radial-gradient(circle at 30% 107%, rgb(84, 77, 2) 0%, rgb(84, 77, 2) 5%, rgb(160, 16, 2) 45%, rgb(171, 29, 127) 60%, rgb(16, 57, 176) 90%);
+    background-color: initial;
+  
+} 
+
+body header .uno .redessociales .y{
+    background-color: #ff0000;
+   
+} 
+
+
+.ing{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+     color:blue;
+     font-size:larger;
+ }
+ 
+
+.pasos{
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    display:block;
+}
+
+
+footer > p, label {
+   color:blue;
+   font-style:italic;
+   font-family:"Verdana", Geneva, Tahoma, sans-serif;
+}
+
+
+
+footer > form > input,textarea{
+    background-color:darkkhaki;
+    border-color: chocolate;
+    border-style:double;
+}
+
+
+
+
+input[type="text"] {
+    width: 350px;
+    height: 40px;
+    padding-right: 1.5%;
+}
+
+
+#sb{
+    margin-left: 1cm;
+    width: 250px;
+    height: 30px;
+    color:blue;
+}
+
+@media (max-width: 480px) {
+
+   h1,h2{
+    font-size:x-large;
+    text-align:center;
+    
+   }
+
+
+    .uno  .contenedor img{
+        display:flex;
+        width: 350px;
+        height: 250px; 
+        margin-right: auto;
+        margin-left: auto;
+     
+    }
+    
+    .uno .contenedor table{
+        
+        width: 310px;
+        height: 150px;
+        margin-left: 75px;
+     margin-right:75px;
+
+
+    }
+
+    
+    .uno .contenedor{
+        display:inline-block;
+        margin-right: 5px;
+    }
+ 
+    header .uno .redessociales{
+     flex-wrap: wrap;
+     padding-right: 5px;
+
+    }
+
+    main .ing{
+      font-size:medium;
+    }
+
+
+   main .pasos dl img{
+    width: 310px;
+    height: 200px; 
+   }
+ 
+   main .pasos{
+    font-size:medium;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  footer iframe{
+    width:fit-content;
+    height:fit-content;
+  }
+  
+  footer input{
+    margin-bottom:10px;
+  }
+
+  textarea{
+    width: 400px;
+    height: 200px;
+  }
+
+ footer  p {
+    font-style:smaller;
+  }
+
+  #sb{
+   width:255px;
+   height:30px;
+   margin-top: 20px;
+   margin-left: 25px;
+   margin-right:25px;
+  } 
+
+  input[type="text"]{
+    display:flex;
+    margin-top:10px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.form-floating {
+    display:inline-block;
+    width:500px;
+    height:150px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:30px;
+}
+  
+.form-floating h6{
+    display:inline-block;
+    
+}
+
+.d-grid button{
+display:flex;
+width:100px;
+margin-left:50px;
+
+}
+
+
+  @media  (min-width: 480px) and (max-width: 960px){
+
+    nav , .dropdown-menu {
+       font-size:xx-large;
+     }
+  
+     nav  form .btn{
+       font-size:x-large;
+     }
+  
+    
+        h1,h2{
+          font-size:xx-large;
+          margin-right:10px;
+          margin-left:10px;
+        } 
+  
+      .uno .contenedor img{
+        width:400px;
+        height:300px;
+        margin-right:20px;
+        margin-left:20px;
+      }
+    
+      .uno .contenedor table{
+          font-size:x-large;
+          margin-left:25px;
+          margin-right:25px;
+        }
+      
+        .uno .redessociales{
+          margin-right:20px;
+          margin-left:20px;
+          
+        }
+      
+      main .ing ,h3{
+          display:inline-block;
+          font-size:xx-large;
+          margin-right:40px;
+          margin-left:40px;
+          
+        }
+      
+        main .pasos dl img{
+          width:350px;
+          height:250px;
+          
+          
+        }
+      
+      
+        main .pasos{
+          display:inline-block;
+          font-size:x-large;
+          margin-left:60px;
+          margin-right:60px;
+        }
+    
+  
+    footer{
+      font-size:x-large;
+      margin-left:30px;
+      margin-right:30px;
+    }
+  
+    footer iframe{
+      width:400px;
+      height:350px;
+    }
+  
+  
+     input[type="text"]{
+      width:400px;
+       height:60px;
+       margin-right:20px;
+       margin-left:20px;
+     } 
+  
+    
+     textarea{
+       margin-right:15px;
+       margin-left:15px;
+       height:250px;
+     }
+  
+     #sb{    
+      height: 60px;
+      width:300px;
+     }
+  
+    
+  }
+}  
+
+
+
+
+
+
+    
+   
